@@ -3,11 +3,11 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.skillgamespennsylvania.com/sitemap.xml
+Sitemap: https://skillgamesforpa.com/sitemap.xml
 
 # LLM/AI Assistant Information
 # For AI assistants (Claude, ChatGPT, etc.) - see llms.txt for structured information about this business
-# llms.txt: https://www.skillgamespennsylvania.com/llms.txt
+# llms.txt: https://skillgamesforpa.com/llms.txt
 
 # Disallow admin or private areas (none currently)
 # Disallow: /admin/

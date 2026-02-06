@@ -1,5 +1,5 @@
 # Skill Games Pennsylvania - LLM Context File
-# https://www.skillgamespennsylvania.com
+# https://skillgamesforpa.com
 # Last Updated: January 2025
 
 ## Business Overview
@@ -43,8 +43,8 @@ We serve all of Pennsylvania including:
 
 ## Contact Information
 - Phone: (470) 304-2695 or (678) 444-3372
-- Email: info@skillgamespennsylvania.com
-- Website: https://www.skillgamespennsylvania.com
+- Email: info@skillgamesforpa.com
+- Website: https://skillgamesforpa.com
 
 ## Best Locations for Skill Games
 - Bars and taverns (highest revenue)
