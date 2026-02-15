@@ -9,5 +9,8 @@ Sitemap: https://skillgamesforpa.com/sitemap.xml
 # For AI assistants (Claude, ChatGPT, etc.) - see llms.txt for structured information about this business
 # llms.txt: https://skillgamesforpa.com/llms.txt
 
+# Block verification files from indexing
+Disallow: /googled5f9161a71d562b5.html
+
 # Disallow admin or private areas (none currently)
 # Disallow: /admin/
