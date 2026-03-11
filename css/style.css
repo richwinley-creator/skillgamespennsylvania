@@ -3141,10 +3141,16 @@ section {
     transition: var(--transition);
 }
 
-.blog-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-    border-color: var(--pa-blue);
+@media (hover: hover) {
+    .blog-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-lg);
+        border-color: var(--pa-blue);
+    }
+
+    .blog-card:hover .blog-card-image img {
+        transform: scale(1.05);
+    }
 }
 
 .blog-card.featured {
@@ -3171,9 +3177,7 @@ section {
     transition: transform 0.4s ease;
 }
 
-.blog-card:hover .blog-card-image img {
-    transform: scale(1.05);
-}
+
 
 .blog-category {
     position: absolute;
