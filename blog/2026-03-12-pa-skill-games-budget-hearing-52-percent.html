@@ -35,34 +35,24 @@
     <meta name="twitter:description" content="PA Revenue Secretary defended the 52% skill games tax at a March 11 hearing — with no study on market impact. What this means for operators before the June 30 deadline.">
     <meta name="twitter:image" content="https://skillgamesforpa.com/images/installation-restaurant.jpg">
 
-    <!-- Structured Data - Article -->
+    <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "\"Pigs Get Fat, Hogs Go to Slaughter\" — What PA's March 11 Budget Hearing Revealed About the 52% Skill Games Tax",
-        "description": "At a March 11 budget hearing, PA Revenue Secretary Pat Browne defended the 52% skill games tax with no market study to back it. Rep. Jamie Barton's pushback — and what it means for operators before the June 30 budget deadline.",
+        "headline": "\"Pigs Get Fat, Hogs Go to Slaughter\" — What PA's Budget Hearing Revealed About the 52% Skill Games Tax",
+        "description": "At a March 11 budget hearing, PA Revenue Secretary Pat Browne defended the 52% skill games tax with no market study to back it.",
         "image": "https://skillgamesforpa.com/images/installation-restaurant.jpg",
-        "author": {
-            "@type": "Organization",
-            "name": "Skill Games Pennsylvania",
-            "url": "https://skillgamesforpa.com"
-        },
+        "author": { "@type": "Organization", "name": "Skill Games Pennsylvania", "url": "https://skillgamesforpa.com" },
         "publisher": {
             "@type": "Organization",
             "name": "Skill Games Pennsylvania",
             "url": "https://skillgamesforpa.com",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://skillgamesforpa.com/images/logo.png"
-            }
+            "logo": { "@type": "ImageObject", "url": "https://skillgamesforpa.com/images/logo.png" }
         },
         "datePublished": "2026-03-12T08:00:00+00:00",
         "dateModified": "2026-03-12T08:00:00+00:00",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://skillgamesforpa.com/blog/2026-03-12-pa-skill-games-budget-hearing-52-percent.html"
-        }
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://skillgamesforpa.com/blog/2026-03-12-pa-skill-games-budget-hearing-52-percent.html" }
     }
     </script>
 
@@ -70,6 +60,73 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Inline stat callout box */
+        .stat-callout {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            background: var(--pa-blue);
+            border-radius: 10px;
+            padding: 28px 24px;
+            margin: 36px 0;
+        }
+        .stat-callout-item {
+            text-align: center;
+        }
+        .stat-callout-number {
+            display: block;
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            color: var(--pa-gold);
+            line-height: 1;
+            margin-bottom: 6px;
+        }
+        .stat-callout-label {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.85);
+            line-height: 1.3;
+        }
+        @media (max-width: 480px) {
+            .stat-callout {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        /* Tax rate comparison table */
+        .rate-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 28px 0;
+            font-size: 0.95rem;
+        }
+        .rate-table th {
+            background: var(--pa-blue);
+            color: white;
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .rate-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+            color: var(--text-body);
+        }
+        .rate-table tr:nth-child(even) td {
+            background: var(--cream);
+        }
+        .rate-table .rate-highlight td {
+            background: #fff3cd;
+            font-weight: 600;
+        }
+        .rate-table .rate-bad td {
+            background: #fde8e8;
+        }
+        @media (max-width: 600px) {
+            .rate-table { font-size: 0.85rem; }
+            .rate-table th, .rate-table td { padding: 10px 12px; }
+        }
+    </style>
 </head>
 <body class="dark-theme">
 
@@ -90,147 +147,159 @@
         </div>
     </nav>
 
-    <!-- Article Hero -->
-    <section class="article-hero">
+    <!-- Article -->
+    <section class="blog-post-section">
         <div class="container">
-            <div class="article-meta">
-                <span class="article-category">Tax &amp; Regulation</span>
-                <span class="article-date">March 12, 2026</span>
-            </div>
-            <h1>"Pigs Get Fat, Hogs Go to Slaughter" — What PA's Budget Hearing Revealed About the 52% Skill Games Tax</h1>
-            <p class="article-subtitle">At a Pennsylvania Capitol budget hearing on March 11, Revenue Secretary Pat Browne defended the 52% skill games tax — and admitted there is no market study supporting it. The blunt response from one Republican lawmaker captures exactly why this debate is far from over.</p>
-        </div>
+            <div class="blog-post-container">
+
+                <a href="../blog.html" class="blog-back-link">&larr; Back to Blog</a>
+
+                <div class="blog-post-header">
+                    <div class="blog-post-meta">
+                        <span class="category">Tax &amp; Regulation</span>
+                        <span>March 12, 2026</span>
+                        <span>7 min read</span>
+                    </div>
+                    <h1>"Pigs Get Fat, Hogs Go to Slaughter" — What PA's Budget Hearing Revealed About the 52% Skill Games Tax</h1>
+                </div>
+
+                <div class="blog-post-content">
+
+                    <p>At a Pennsylvania Capitol budget hearing on March 11, Revenue Secretary Pat Browne defended Governor Shapiro's proposed 52% skill games tax — and admitted there is no market study supporting it. One Republican lawmaker's blunt response captures exactly why this debate is far from over.</p>
+
+                    <!-- Key stats callout -->
+                    <div class="stat-callout">
+                        <div class="stat-callout-item">
+                            <span class="stat-callout-number">$766M</span>
+                            <span class="stat-callout-label">Shapiro's projected revenue at 52%</span>
+                        </div>
+                        <div class="stat-callout-item">
+                            <span class="stat-callout-number">$0</span>
+                            <span class="stat-callout-label">Market impact studies completed by Revenue Dept.</span>
+                        </div>
+                        <div class="stat-callout-item">
+                            <span class="stat-callout-number">June 30</span>
+                            <span class="stat-callout-label">PA constitutional budget deadline</span>
+                        </div>
+                    </div>
+
+                    <h2>What Happened at the Hearing</h2>
+
+                    <p>The 2026-27 Pennsylvania budget process entered its third week of hearings on Tuesday, March 11. Before the House Appropriations Committee: the single biggest new revenue line in Governor Shapiro's $53.3 billion spending proposal — a projected <strong>$766 million from regulating and taxing skill games at 52%</strong>.</p>
+
+                    <p>Revenue Secretary Pat Browne told lawmakers the 52% rate was "consistent and fair tax policy," drawing a direct comparison to video gaming terminals (VGTs) at truck stops taxed at the same rate. The logic: if two types of machines behave similarly, they should face the same tax treatment.</p>
+
+                    <p>State Rep. Jamie Barton, a Republican from Schuylkill and Berks counties, didn't buy it. He invoked a well-worn Pennsylvania proverb:</p>
+
+                    <blockquote>
+                        "Pigs get fat and hogs go to slaughter." — Rep. Jamie Barton, PA House Appropriations Committee
+                    </blockquote>
+
+                    <p>Barton's point was precise. A tax rate so high it destroys the revenue base it's supposed to capture isn't smart policy — it's self-defeating. A 52% rate wouldn't just squeeze operators. It would likely cause widespread machine removal, collapsing the very tax base Shapiro is counting on to close a <strong>$4.5 billion budget gap</strong> — one he's covering, in part, by draining the entire Rainy Day Fund.</p>
+
+                    <h2>The Critical Admission: No Market Study Exists</h2>
+
+                    <p>Barton asked Browne directly: had the Revenue Department studied what a 52% tax rate would actually do to the skill games market?</p>
+
+                    <p>Browne's answer: <strong>no such study exists.</strong> His department's position, he said, was that the market could "sustain" the proposed rate. That word — <em>sustain</em> — is doing a lot of work in a budget projection worth $766 million.</p>
+
+                    <p>Shapiro's budget assumes a specific revenue yield based on taxing tens of thousands of currently operating machines. But the administration has not modeled what happens if operators pull machines from low-volume locations because the economics no longer work. No elasticity analysis. No threshold study. No modeling of operator behavior under different rate scenarios.</p>
+
+                    <p><strong>The $766 million figure is a projection built on an assumption, not an analysis.</strong></p>
+
+                    <h2>Who Actually Has Machines in Pennsylvania</h2>
+
+                    <p>Barton wasn't speaking abstractly. He was speaking for a constituency that doesn't look like a casino floor.</p>
+
+                    <p>Tens of thousands of skill games operate in:</p>
+                    <ul>
+                        <li><strong>Small family-owned convenience stores</strong> and roadside shops</li>
+                        <li><strong>Bars and taverns</strong> serving rural and suburban communities</li>
+                        <li><strong>VFW posts and American Legion halls</strong> using machine revenue to fund veteran programs</li>
+                        <li><strong>Volunteer fire companies</strong> supplementing dwindling municipal budgets</li>
+                        <li><strong>Fraternal organizations and social clubs</strong> throughout the commonwealth</li>
+                    </ul>
+
+                    <p>For these venues, skill game revenue isn't a luxury — it's a structural part of operating budgets. At 52%, a machine generating $1,500/month in net revenue would carry roughly <strong>$780/month in state tax</strong> before any location revenue share. That's not workable for a VFW in Schuylkill County or a bar in rural Berks. Many would simply remove the machines — killing the tax base the Governor is counting on.</p>
+
+                    <h2>The Tax Rate Landscape: Four Proposals on the Table</h2>
+
+                    <p>As of March 2026, Pennsylvania legislators are debating at least four distinct approaches. The spread between best and worst case for operators is more than $500 per machine, per month.</p>
+
+                    <table class="rate-table">
+                        <thead>
+                            <tr>
+                                <th>Rate</th>
+                                <th>Source</th>
+                                <th>Monthly Tax on $1,500 Machine</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="rate-highlight">
+                                <td><strong>16%</strong></td>
+                                <td>Yaw SB 1079 + House companion (DOR oversight)</td>
+                                <td>~$240/mo</td>
+                            </tr>
+                            <tr>
+                                <td>33%</td>
+                                <td>Rival Senate Republican bill (Gaming Control Board)</td>
+                                <td>~$495/mo</td>
+                            </tr>
+                            <tr class="rate-bad">
+                                <td>52%</td>
+                                <td>Governor Shapiro's budget proposal</td>
+                                <td>~$780/mo</td>
+                            </tr>
+                            <tr>
+                                <td>$500 flat</td>
+                                <td>Flat fee alternative floated in discussions</td>
+                                <td>$500/mo fixed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>Multiply those differences across 60,000 to 80,000 machines statewide — the stakes for operators come into focus fast.</p>
+
+                    <h2>The Budget Deadline and What Comes Next</h2>
+
+                    <p>Pennsylvania's constitutional budget deadline is <strong>June 30, 2026</strong>. That's the hard wall. A deal on skill games regulation needs to be part of the final budget package, or it risks another year of limbo.</p>
+
+                    <p>The PA Supreme Court is also still in play. Oral arguments happened in 2025 and a ruling is expected in 2026. If the court rules against skill games before a legislative framework is in place, the entire regulatory picture shifts — potentially triggering enforcement against the 80,000 machines currently operating.</p>
+
+                    <p>The combination of a budget deadline, competing legislative proposals, and a pending Supreme Court ruling makes the <strong>next 90 to 110 days the most consequential window in the history of Pennsylvania skill games.</strong></p>
+
+                    <h2>What Operators Should Do Right Now</h2>
+
+                    <h3>Run the math at each scenario.</h3>
+                    <p>Pull your per-machine revenue data and model your net at 16%, 33%, and 52%. Know which locations survive each scenario and which don't. If a deal comes in at 33%, you need to know that day one which machines to keep and which routes to restructure.</p>
+
+                    <h3>Get your numbers in front of your legislator.</h3>
+                    <p>Browne told lawmakers the market could "sustain" 52% without a study. The only way to counter that is real numbers from real operators. How many machines do you run in their district? What do those machines generate for local venues? That data carries more weight than any lobbyist's talking point.</p>
+
+                    <h3>Activate community organizations.</h3>
+                    <p>VFW posts, fire companies, and American Legion halls have extraordinary credibility in Harrisburg. They are not casino operators. They are constituents — and their voices, delivered directly to House and Senate representatives, move votes.</p>
+
+                    <h3>Watch the Supreme Court docket.</h3>
+                    <p>A ruling against skill games before a regulatory bill passes would create immediate legal uncertainty and could trigger enforcement actions. A favorable ruling strengthens the hand of legislators pushing for a lower rate. Know the timeline.</p>
+
+                    <h2>The Bottom Line</h2>
+
+                    <p>The March 11 hearing confirmed two things. First, the Shapiro administration has a number it wants — $766 million — but no analysis supporting whether it's achievable at 52%. Second, there are legislators willing to say publicly what operators have been saying privately: this rate is punitive, not practical.</p>
+
+                    <p>The Barton exchange won't be the last pushback. As the process moves toward June 30, the 52% rate will face increasing pressure from rural and suburban Republicans whose constituents operate and host these machines. The outcome is not predetermined — but the window to shape it is narrowing.</p>
+
+                    <p><strong>The time to make noise in Harrisburg is now, not after the budget passes.</strong></p>
+
+                    <div class="blog-post-cta">
+                        <h3>Ready to Start or Expand Your Operation?</h3>
+                        <p>Whether you're evaluating your first machine or managing an existing route, we help PA operators understand the regulatory landscape and build sustainable revenue.</p>
+                        <a href="../contact.html" class="btn btn-primary">Talk to an Operator</a>
+                    </div>
+
+                </div><!-- end blog-post-content -->
+            </div><!-- end blog-post-container -->
+        </div><!-- end container -->
     </section>
-
-    <!-- Article Content -->
-    <article class="article-content">
-        <div class="container">
-            <div class="article-body">
-
-                <h2>What Happened at the Hearing</h2>
-
-                <p>The 2026-27 Pennsylvania budget process entered its third week of hearings on Tuesday, March 11. Among the topics before the House Appropriations Committee: the single biggest new revenue line in Governor Josh Shapiro's $53.3 billion spending proposal — a projected <strong>$766 million from regulating and taxing skill games</strong> at a 52% rate.</p>
-
-                <p>Revenue Secretary Pat Browne told lawmakers the 52% rate was "consistent and fair tax policy," drawing a direct comparison to video gaming terminals (VGTs) at truck stops, which are already taxed at the same rate under state law. The logic: if two types of machines behave similarly in the marketplace, they should face the same tax treatment.</p>
-
-                <p>State Rep. Jamie Barton, a Republican representing parts of Schuylkill and Berks counties, didn't buy it. He invoked a well-worn Pennsylvania proverb: <em>"Pigs get fat and hogs go to slaughter."</em></p>
-
-                <p>Barton's point was precise. A tax rate set so high that it destroys the revenue base it's supposed to capture isn't smart policy — it's self-defeating. A 52% rate wouldn't just squeeze operators. It would likely cause widespread machine removal, collapsing the very tax base Shapiro is counting on to close a $4.5 billion gap in his budget — a gap being covered, in part, by draining the state's entire Rainy Day Fund.</p>
-
-                <h2>The Critical Admission: No Market Impact Study Exists</h2>
-
-                <p>Barton asked Browne directly: had the Revenue Department studied what a 52% tax rate would actually do to the skill games market?</p>
-
-                <p>Browne's answer: <strong>no such study exists</strong>. His department's position, he said, was that the market could "sustain" the proposed rate. That word — sustain — is doing a lot of work in a budget projection worth $766 million.</p>
-
-                <p>This is significant. Shapiro's budget assumes a specific revenue yield based on taxing tens of thousands of currently operating machines. But the administration has not modeled what happens to that number if operators pull machines out of low-volume locations because the economics no longer work. There is no elasticity analysis. No threshold study. No modeling of operator behavior under different rate scenarios.</p>
-
-                <p>The $766 million figure is a projection built on an assumption — not an analysis.</p>
-
-                <h2>Who Actually Has Machines in Pennsylvania</h2>
-
-                <p>Barton's "pigs and hogs" comment wasn't abstract. He was speaking for a constituency — and it's one that doesn't look like a casino floor.</p>
-
-                <p>Tens of thousands of skill games operate today in:</p>
-                <ul>
-                    <li><strong>Small family-owned convenience stores</strong> and roadside shops</li>
-                    <li><strong>Bars and taverns</strong> serving rural and suburban communities</li>
-                    <li><strong>VFW posts and American Legion halls</strong> using machine revenue to fund veteran programs</li>
-                    <li><strong>Volunteer fire companies</strong> supplementing dwindling municipal budgets</li>
-                    <li><strong>Fraternal organizations and social clubs</strong> throughout the commonwealth</li>
-                </ul>
-
-                <p>For these venues, skill game revenue isn't a luxury — it's a structural part of operating budgets. At 52%, a machine generating $1,500 per month in net revenue would carry roughly $780 in monthly state tax before any revenue share with the location. That's not a workable arrangement for a VFW in Schuylkill County or a bar in rural Berks. Many would simply remove the machines.</p>
-
-                <p>That's the dynamic Barton was pointing to. It's also why the Governor's $766 million projection deserves far more scrutiny than it has received.</p>
-
-                <h2>The Tax Rate Landscape Heading Into Budget Season</h2>
-
-                <p>The 52% proposal is not the only rate on the table. As of March 2026, Pennsylvania legislators are actively debating at least four distinct approaches:</p>
-
-                <ul>
-                    <li><strong>52%</strong> — Governor Shapiro's proposal (same as VGT rate)</li>
-                    <li><strong>33%</strong> — A rival Senate Republican bill</li>
-                    <li><strong>16%</strong> — Senator Gene Yaw's SB 1079, now with a House companion bill, with oversight assigned to the Department of Revenue rather than the Gaming Control Board</li>
-                    <li><strong>$500/machine/month flat fee</strong> — A simpler alternative that has been floated in various discussions</li>
-                </ul>
-
-                <p>The difference between these rates isn't marginal — it's existential for significant portions of the operator community. At 16%, a $1,500/month machine pays roughly $240/month in state tax. At 52%, that same machine pays $780/month. The range between the best and worst outcome for operators is more than $500 per machine, per month.</p>
-
-                <p>Multiply that across 60,000 to 80,000 machines statewide, and the stakes come into focus quickly.</p>
-
-                <h2>The Budget Deadline and What Comes Next</h2>
-
-                <p>Pennsylvania's constitutionally mandated budget deadline is <strong>June 30, 2026</strong>. That's the hard wall. A deal on skill games regulation — including the tax rate — needs to be part of the final budget package, or it risks being pushed into another year of limbo while machines continue to operate in a legal gray zone.</p>
-
-                <p>The PA Supreme Court is also still in play. The court took up the question of whether skill games constitute gambling devices and heard oral arguments in 2025. A ruling is expected in 2026. If the court rules against skill games before a legislative framework is in place, the entire regulatory picture shifts dramatically.</p>
-
-                <p>The combination of a budget deadline, competing legislative proposals, and a pending Supreme Court ruling makes the next 90 to 110 days the most consequential window in the history of Pennsylvania skill games.</p>
-
-                <h2>What Operators Should Be Doing Right Now</h2>
-
-                <h3>Run the math at each tax scenario.</h3>
-                <p>Pull your per-machine revenue data and model your net at 16%, 33%, and 52%. Know which locations survive each scenario and which don't. This isn't pessimism — it's preparation. If a deal comes in at 33%, you need to know that day one which machines to keep and which routes to restructure.</p>
-
-                <h3>Make your legislator hear a name and a number.</h3>
-                <p>Revenue Secretary Browne told lawmakers the market could "sustain" 52% without a study. The only way to counter that assumption is to put real numbers in front of real legislators. How many machines do you operate in their district? What is their annual revenue contribution to local venues? How much do those venues contribute to their communities? That data has more credibility than any lobbyist's talking point.</p>
-
-                <h3>Coordinate with your locations — especially community organizations.</h3>
-                <p>VFW posts, fire companies, and American Legion halls that use skill game revenue for community programs have extraordinary credibility in Harrisburg. They are not casino operators. They are not out-of-state gaming companies. They are constituents. Their voices, delivered directly to their House and Senate representatives, carry weight that can move votes.</p>
-
-                <h3>Watch the Supreme Court docket.</h3>
-                <p>A ruling against skill games before a regulatory bill passes would create immediate legal uncertainty and could trigger enforcement actions. If the court rules favorably, it strengthens the hand of legislators pushing for a lower rate. Track the docket. Know the timeline.</p>
-
-                <h2>The Bottom Line</h2>
-
-                <p>The March 11 hearing confirmed two things. First, Governor Shapiro's administration has a number it wants — $766 million — but no analysis supporting whether that number is actually achievable at a 52% rate. Second, there are legislators willing to say publicly what operators have been saying privately: this rate is punitive, not practical.</p>
-
-                <p>The Barton exchange won't be the last pushback. As the budget process moves toward its June 30 deadline, the 52% rate will face increasing pressure from rural and suburban Republicans whose constituents operate and host these machines. The outcome is not predetermined — but the window to shape it is narrowing.</p>
-
-                <p>The time to make noise in Harrisburg is now, not after the budget passes.</p>
-
-                <div class="article-cta">
-                    <h3>Ready to Start or Expand Your Skill Game Operation?</h3>
-                    <p>Whether you're evaluating your first machine or managing an existing route in Pennsylvania, we help operators understand the regulatory landscape and build sustainable revenue. Get in touch today.</p>
-                    <a href="../contact.html" class="btn btn-primary">Talk to an Operator</a>
-                </div>
-
-            </div>
-
-            <!-- Sidebar -->
-            <aside class="article-sidebar">
-                <div class="sidebar-widget">
-                    <h3>Key Numbers</h3>
-                    <ul class="key-stats">
-                        <li><strong>$766M</strong> — Shapiro's projected skill games tax revenue at 52%</li>
-                        <li><strong>52%</strong> — Governor's proposed rate (same as truck-stop VGTs)</li>
-                        <li><strong>16%</strong> — Yaw/SB 1079 operator-friendly rate</li>
-                        <li><strong>33%</strong> — Rival Senate Republican proposal</li>
-                        <li><strong>$0</strong> — Market impact studies conducted by Revenue Dept.</li>
-                        <li><strong>June 30</strong> — PA budget deadline</li>
-                        <li><strong>~80,000</strong> — Skill game machines currently operating in PA</li>
-                    </ul>
-                </div>
-
-                <div class="sidebar-widget">
-                    <h3>Related Articles</h3>
-                    <ul class="related-links">
-                        <li><a href="2026-03-11-pa-skill-games-house-bill-legislative-path.html">PA Skill Games: The House Joins the Fight — Three Tax Rates, One Outcome</a></li>
-                        <li><a href="2026-03-10-casino-lobby-skill-games-argument.html">The Casino Lobby's Skill Games Argument Is Falling Apart</a></li>
-                        <li><a href="2026-03-09-shapiro-skill-games-budget-billion.html">Shapiro's $1.1 Billion Skill Games Plan: What Operators Need to Know</a></li>
-                        <li><a href="2026-03-08-pa-skill-games-tax-showdown.html">PA Skill Games Tax Showdown: 52% vs. Operators</a></li>
-                        <li><a href="pa-supreme-court-skill-games-ruling-2026.html">PA Supreme Court Skill Games Ruling: What to Expect</a></li>
-                    </ul>
-                </div>
-
-                <div class="sidebar-widget">
-                    <h3>Take Action</h3>
-                    <p>Contact your PA House representative and state Senator. Tell them the 52% rate has no market study backing it — and ask where they stand on SB 1079's 16% framework.</p>
-                    <a href="https://www.legis.state.pa.us/cfdocs/legis/home/findyourlegislator/" class="btn btn-outline" target="_blank" rel="noopener">Find Your Legislator</a>
-                </div>
-            </aside>
-        </div>
-    </article>
 
     <!-- Footer -->
     <footer class="footer">
@@ -253,12 +322,12 @@
                     </ul>
                 </div>
                 <div class="footer-links">
-                    <h4>Popular Articles</h4>
+                    <h4>Related Articles</h4>
                     <ul>
-                        <li><a href="skill-games-legal-pennsylvania-2026.html">Are Skill Games Legal in PA?</a></li>
-                        <li><a href="how-much-can-you-earn-skill-games.html">How Much Can You Earn?</a></li>
-                        <li><a href="best-locations-for-skill-games.html">Best Locations for Skill Games</a></li>
-                        <li><a href="banilla-vs-jvl-vs-primero.html">Banilla vs JVL vs Primero</a></li>
+                        <li><a href="2026-03-11-pa-skill-games-house-bill-legislative-path.html">The House Joins the Fight — Three Tax Rates</a></li>
+                        <li><a href="2026-03-10-casino-lobby-skill-games-argument.html">Casino Lobby's Argument Is Falling Apart</a></li>
+                        <li><a href="2026-03-09-shapiro-skill-games-budget-billion.html">Shapiro's $1.1B Skill Games Plan</a></li>
+                        <li><a href="2026-03-08-pa-skill-games-tax-showdown.html">PA Skill Games Tax Showdown</a></li>
                     </ul>
                 </div>
             </div>
