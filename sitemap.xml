@@ -21,7 +21,7 @@
     </url>
     <url>
         <loc>https://skillgamesforpa.com/blog.html</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-03-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -209,5 +209,11 @@
         <lastmod>2026-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://skillgamesforpa.com/blog/2026-03-17-virginia-skill-games-passes-pa-comparison.html</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 </urlset>
