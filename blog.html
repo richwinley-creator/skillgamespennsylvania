@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>Blog | Skill Games Pennsylvania - Industry News &amp; Guides</title>
+    <meta name="description" content="Expert insights on skill games in Pennsylvania. Learn about legal updates, revenue potential, machine comparisons, and tips for operators.">
+    <meta name="keywords" content="skill games blog, pennsylvania skill games news, skill game tips, banilla games guide, jvl games guide, skill games legal pennsylvania">
+    <meta name="author" content="Skill Games Pennsylvania">
+    <link rel="canonical" href="https://skillgamesforpa.com/blog.html">
+
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#002868">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://skillgamesforpa.com/blog.html">
+    <meta property="og:title" content="Blog | Skill Games Pennsylvania - Industry News &amp; Guides">
+    <meta property="og:description" content="Expert insights on skill games in Pennsylvania. Legal updates, revenue guides, and operator tips.">
+    <meta property="og:image" content="https://skillgamesforpa.com/images/installation-restaurant.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://skillgamesforpa.com/blog.html">
+    <meta name="twitter:title" content="Blog | Skill Games Pennsylvania">
+    <meta name="twitter:description" content="Expert insights on skill games in Pennsylvania. Legal updates, revenue guides, and operator tips.">
+    <meta name="twitter:image" content="https://skillgamesforpa.com/images/installation-restaurant.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Skill Games Pennsylvania Blog",
+        "description": "Expert insights on skill games in Pennsylvania including legal updates, revenue guides, and operator tips",
+        "url": "https://skillgamesforpa.com/blog.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Skill Games Pennsylvania",
+            "url": "https://skillgamesforpa.com"
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Lead Capture Popup */
+#lead-popup-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#lead-popup-overlay.active {
+    display: flex;
+}
+#lead-popup {
+    background: #0d1f3c;
+    border: 1px solid rgba(0,179,126,0.3);
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 480px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+}
+#lead-popup-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.5);
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 4px 8px;
+    transition: color 0.2s;
+}
+#lead-popup-close:hover { color: #fff; }
+.lead-popup-badge {
+    display: inline-block;
+    background: rgba(0,179,126,0.15);
+    color: #00b37e;
+    border: 1px solid rgba(0,179,126,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+#lead-popup h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    line-height: 1.3;
+}
+#lead-popup p {
+    color: rgba(255,255,255,0.65);
+    font-size: 15px;
+    margin: 0 0 24px;
+    line-height: 1.6;
+}
+.lead-popup-form .form-row {
+    margin-bottom: 14px;
+}
+.lead-popup-form input,
+.lead-popup-form select {
+    width: 100%;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    color: #fff;
+    padding: 12px 16px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+.lead-popup-form input::placeholder { color: rgba(255,255,255,0.35); }
+.lead-popup-form input:focus,
+.lead-popup-form select:focus {
+    border-color: #00b37e;
+}
+.lead-popup-form select option { background: #0d1f3c; }
+.lead-popup-submit {
+    width: 100%;
+    background: linear-gradient(135deg, #00b37e, #00956a);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px;
+    cursor: pointer;
+    margin-top: 6px;
+    transition: transform 0.15s, box-shadow 0.15s;
+    letter-spacing: 0.02em;
+}
+.lead-popup-submit:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(0,179,126,0.4);
+}
+.lead-popup-skip {
+    display: block;
+    text-align: center;
+    color: rgba(255,255,255,0.35);
+    font-size: 13px;
+    margin-top: 14px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.lead-popup-skip:hover { color: rgba(255,255,255,0.6); }
+.lead-popup-success {
+    text-align: center;
+    display: none;
+}
+.lead-popup-success .success-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.lead-popup-success h3 {
+    color: #00b37e;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+.lead-popup-success p {
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+    margin: 0;
+}
+@media (max-width: 520px) {
+    #lead-popup { padding: 28px 24px; }
+    #lead-popup h2 { font-size: 20px; }
+}
+</style>
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">SKILL GAMES</span>
+                <span class="logo-state">PENNSYLVANIA</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Our Games</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Get Started</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="tel:+16784443372" class="nav-phone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <span>(678) 444-3372</span><span style="font-size:11px;opacity:0.7;margin-left:6px;">Call or Text</span>
+                </a>
+                <a href="contact.html" class="btn btn-glow nav-cta">Get Free Quote</a>
+            </div>
+            <a href="tel:+16784443372" class="mobile-phone-link" aria-label="Call us">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <span class="section-tag">Resources</span>
+            <h1>Skill Games <span class="gradient-text">Blog</span></h1>
+            <p>Industry insights, legal updates, and tips for Pennsylvania operators</p>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Featured Post - June 8, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-bar-lounge.jpg" alt="HB 2557 Pennsylvania Skill Games Consumer Protection Age 21 Loss Limit Gas Station Ban June 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legislative Update</span>
+                        <span class="blog-date">June 8, 2026</span>
+                        <h2><a href="blog/2026-06-08-hb-2557-pa-skill-games-consumer-protection-details.html">HB 2557 Introduced June 1: What Pennsylvania&rsquo;s New Skill Game Consumer Protection Rules Actually Require</a></h2>
+                        <p>Rep. Ben Waxman&rsquo;s new bill sets a $250 daily loss cap, age-21 identity verification, and a gas station ban &mdash; and takes effect only if a separate tax bill also passes. Here&rsquo;s what each provision means for operators with 22 days to June 30.</p>
+                        <a href="blog/2026-06-08-hb-2557-pa-skill-games-consumer-protection-details.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - June 1, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-bar-lounge.jpg" alt="PA Skill Games Legislature Frozen Supreme Court 29 Days Budget Deadline June 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legislative Update</span>
+                        <span class="blog-date">June 1, 2026</span>
+                        <h2><a href="blog/2026-06-01-pa-skill-games-legislature-frozen-supreme-court-29-days.html">PA Skill Games Hit the Final Gate: Legislature Won&rsquo;t Move Until the Supreme Court Rules, With 29 Days to the Budget Deadline</a></h2>
+                        <p>SpotlightPA and WESA confirmed on May 31 that Pennsylvania lawmakers are explicitly standing down until the Supreme Court decides. With oral arguments seven months old and 29 days left to June 30, here&rsquo;s what each scenario means for operators.</p>
+                        <a href="blog/2026-06-01-pa-skill-games-legislature-frozen-supreme-court-29-days.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - May 25, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games Safety Narrative Violence Reports Casino Pressure 36 Days June 30 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legislative Update</span>
+                        <span class="blog-date">May 25, 2026</span>
+                        <h2><a href="blog/2026-05-25-pa-skill-games-safety-narrative-36-day-countdown.html">PA Skill Games Under the Safety Microscope: Violence Reports, Casino Pressure, and 36 Days to June 30</a></h2>
+                        <p>The Trace and Duquesne Law&rsquo;s Juris Magazine both published safety critiques in May 2026. PENN&rsquo;s CEO escalated on a public earnings call. Here&rsquo;s what the new narrative means with 36 days until the budget deadline.</p>
+                        <a href="blog/2026-05-25-pa-skill-games-safety-narrative-36-day-countdown.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - May 4, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Pennsylvania Skill Games May 2026 Supreme Court Budget Deadline Status Update" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legislative Update</span>
+                        <span class="blog-date">May 4, 2026</span>
+                        <h2><a href="blog/2026-05-04-pennsylvania-skill-games-may-2026-update.html">Pennsylvania Skill Games May 2026: Supreme Court Still Silent, Budget Deadline in 57 Days</a></h2>
+                        <p>The PA Supreme Court hasn't ruled since November 2025 arguments. Three competing bills are live in Harrisburg. Here's exactly where things stand &mdash; and what operators need to do before June 30.</p>
+                        <a href="blog/2026-05-04-pennsylvania-skill-games-may-2026-update.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - April 16, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games Supreme Court Budget Deadline 75 Days April 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Regulation</span>
+                        <span class="blog-date">April 16, 2026</span>
+                        <h2><a href="blog/2026-04-16-pa-skill-games-supreme-court-budget-deadline-75-days.html">75 Days Left: The PA Supreme Court Ruling and Budget Deadline Are on a Collision Course</a></h2>
+                        <p>Two high-stakes deadlines are converging fast. Here's what the overlap between the pending Supreme Court ruling and June 30 budget deadline means for 70,000 operating machines — and what operators must do now.</p>
+                        <a href="blog/2026-04-16-pa-skill-games-supreme-court-budget-deadline-75-days.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - April 15, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games Consumer Protection Act AG Forfeiture April 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Regulation</span>
+                        <span class="blog-date">April 15, 2026</span>
+                        <h2><a href="blog/2026-04-15-pa-skill-games-consumer-protection-act-ag-forfeiture.html">New PA Skill Games Regulation Bill Filed as AG Seizes $5M — What Operators Need to Know</a></h2>
+                        <p>Rep. Ben Waxman's Skill Game Consumer Protection Act would bring casino-style oversight to PA's 70,000 unmonitored machines — days after the AG shut down two operators for felony charges.</p>
+                        <a href="blog/2026-04-15-pa-skill-games-consumer-protection-act-ag-forfeiture.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - April 4, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games Supreme Court Ruling Budget Deadline April 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Tax</span>
+                        <span class="blog-date">April 4, 2026</span>
+                        <h2><a href="blog/2026-04-04-pa-skill-games-supreme-court-ruling-tax-deadline.html">Two Clocks Are Ticking for PA Skill Game Operators: The Supreme Court and the Budget Deadline</a></h2>
+                        <p>Pennsylvania's Supreme Court ruling on skill games could land any week now — right as the June 30 budget deadline forces a tax-rate showdown between 52% and 16%. Here's what the convergence means for your operation.</p>
+                        <a href="blog/2026-04-04-pa-skill-games-supreme-court-ruling-tax-deadline.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - April 3, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games Tax Scenarios 16% 52% Flat Fee Operator Revenue" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Tax &amp; Regulation</span>
+                        <span class="blog-date">April 3, 2026</span>
+                        <h2><a href="blog/2026-04-03-pa-skill-games-tax-scenario-revenue-breakdown.html">PA Skill Games Tax Scenarios: What 16%, 52%, and the Flat Fee Mean for Your Revenue</a></h2>
+                        <p>Three tax proposals are live in Harrisburg, a Supreme Court ruling is pending, and the budget deadline is June 30. Here's what each scenario actually does to your skill games bottom line — with numbers, not guesses.</p>
+                        <a href="blog/2026-04-03-pa-skill-games-tax-scenario-revenue-breakdown.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - April 2, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games $15.3M Liability Verdict - Operator Risk" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Compliance &amp; Operations</span>
+                        <span class="blog-date">April 2, 2026</span>
+                        <h2><a href="blog/2026-04-02-skill-games-liability-verdict-operator-risk.html">The $15.3 Million Verdict PA Skill Game Operators Can't Ignore</a></h2>
+                        <p>A Pennsylvania jury handed down a $15.3 million verdict against a convenience store operating unregulated skill games. No PGCB oversight means no mandated security standards — and no protection when something goes wrong. Here's what every operator needs to know now.</p>
+                        <a href="blog/2026-04-02-skill-games-liability-verdict-operator-risk.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - April 1, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Supreme Court Skill Games Ruling - What Operators Need to Know" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Regulation</span>
+                        <span class="blog-date">April 1, 2026</span>
+                        <h2><a href="blog/2026-04-01-pa-supreme-court-skill-games-ruling-what-operators-need-to-know.html">The PA Supreme Court Ruling Is Coming — Here's What Each Outcome Means for Your Operation</a></h2>
+                        <p>The Pennsylvania Supreme Court heard arguments in November 2025. A ruling is expected in 2026 — landing in the middle of an active budget fight with a June 30 deadline. Here's what both outcomes mean for operators, and what to do before it drops.</p>
+                        <a href="blog/2026-04-01-pa-supreme-court-skill-games-ruling-what-operators-need-to-know.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 31, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games Budget Deadline 91 Days" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Tax &amp; Regulation</span>
+                        <span class="blog-date">March 31, 2026</span>
+                        <h2><a href="blog/2026-03-31-pa-skill-games-90-day-budget-deadline.html">91 Days to the Budget Deadline: What PA Skill Game Operators Must Do Before June 30</a></h2>
+                        <p>Pennsylvania's constitutional budget deadline is 91 days away. Three paths forward for skill games regulation — Supreme Court ruling, budget deal, or another year of limbo. Here's how to prepare for each one.</p>
+                        <a href="blog/2026-03-31-pa-skill-games-90-day-budget-deadline.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 30, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Missouri Skill Games Ban - Lessons for Pennsylvania Operators" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Regulation</span>
+                        <span class="blog-date">March 30, 2026</span>
+                        <h2><a href="blog/2026-03-30-missouri-skill-games-ban-lessons-pennsylvania.html">A Federal Judge Just Banned Skill Games in Missouri. Pennsylvania Could Be Next.</a></h2>
+                        <p>A U.S. District Judge ruled Missouri's skill games illegal in March 2026. Pennsylvania's Supreme Court is weighing the same argument. What PA operators need to learn from Missouri — fast — before Harrisburg or the court acts first.</p>
+                        <a href="blog/2026-03-30-missouri-skill-games-ban-lessons-pennsylvania.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 28, 2026 -->
+                <!-- Featured Post - March 29, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="While Harrisburg Debates, PA Municipalities Are Already Collecting Skill Games Fees" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Compliance &amp; Operations</span>
+                        <span class="blog-date">March 29, 2026</span>
+                        <h2><a href="blog/2026-03-29-pa-skill-games-municipal-fee-enforcement-operators.html">While Harrisburg Debates, Municipalities Are Already Collecting: What PA Skill Games Operators Need to Know</a></h2>
+                        <p>Sunbury just assigned a former police chief to audit skill games machines and collect $300 permit fees. This municipal enforcement trend is spreading — and operators who are waiting for state-level clarity may already be behind.</p>
+                        <a href="blog/2026-03-29-pa-skill-games-municipal-fee-enforcement-operators.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Three Strikes? Shapiro Has Failed to Regulate PA Skill Games Two Years Running" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Policy &amp; History</span>
+                        <span class="blog-date">March 28, 2026</span>
+                        <h2><a href="blog/2026-03-28-pa-skill-games-shapiro-three-strikes-2026.html">Three Strikes? Shapiro Has Failed to Regulate PA Skill Games Two Years Running — Here's Why 2026 Is Different</a></h2>
+                        <p>Shapiro has come up empty on skill games regulation in 2024 and 2025. In 2026, a Supreme Court ruling, a $4.5B budget gap, and competing tax bills make this year's attempt the most consequential yet.</p>
+                        <a href="blog/2026-03-28-pa-skill-games-shapiro-three-strikes-2026.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 27, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Why Shapiro's Own Math Creates Room for a Skill Games Rate Below 52%" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Tax &amp; Regulation</span>
+                        <span class="blog-date">March 27, 2026</span>
+                        <h2><a href="blog/2026-03-27-pa-skill-games-budget-deal-shapiro-compromise-rate.html">Why Shapiro's Own Math Creates Room for a Skill Games Rate Below 52%</a></h2>
+                        <p>The governor needs $766M from skill games to patch a $4.5B budget gap — but a 52% rate that kills the market delivers zero. Here's why that fiscal logic actually opens the door to a deal operators can live with.</p>
+                        <a href="blog/2026-03-27-pa-skill-games-budget-deal-shapiro-compromise-rate.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 26, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Four Months, No Ruling: What the PA Supreme Court's Silence Means for Skill Game Operators" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal Update</span>
+                        <span class="blog-date">March 26, 2026</span>
+                        <h2><a href="blog/2026-03-26-pa-supreme-court-skill-games-delay-what-it-means.html">Four Months, No Ruling: What the PA Supreme Court's Silence Means for Skill Game Operators</a></h2>
+                        <p>Arguments wrapped in November 2025. It's late March with no decision. What the delay signals — and the four scenarios every PA operator needs to be prepared for before June 30.</p>
+                        <a href="blog/2026-03-26-pa-supreme-court-skill-games-delay-what-it-means.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 25, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="97 Days to June 30: PA Skill Games Operators' Action Checklist Before the Budget Deadline" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Operator Guide</span>
+                        <span class="blog-date">March 25, 2026</span>
+                        <h2><a href="blog/2026-03-25-pa-skill-games-june-30-operator-action-checklist.html">97 Days to June 30: PA Skill Games Operators' Action Checklist Before the Budget Deadline</a></h2>
+                        <p>Four tax proposals ranging from 16% to 52%, a Supreme Court ruling still pending, and a $4.5 billion budget hole. Here's exactly what PA skill game operators need to do before June 30.</p>
+                        <a href="blog/2026-03-25-pa-skill-games-june-30-operator-action-checklist.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 24, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA's $4.5 Billion Budget Gap Is Skill Game Operators' Best Argument for a Fair Tax Rate" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Tax &amp; Regulation</span>
+                        <span class="blog-date">March 24, 2026</span>
+                        <h2><a href="blog/2026-03-24-pa-budget-deficit-skill-games-operator-leverage.html">PA's $4.5 Billion Budget Gap Is Skill Game Operators' Best Argument for a Fair Tax Rate</a></h2>
+                        <p>Pennsylvania needs skill game revenue badly enough that a punitive 52% tax killing the market actually hurts the state. Here's how operators can use that leverage before the June 30 budget deadline.</p>
+                        <a href="blog/2026-03-24-pa-budget-deficit-skill-games-operator-leverage.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 23, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Supreme Court vs. the Legislature: Which Decides the Fate of Skill Games First?" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Compliance</span>
+                        <span class="blog-date">March 23, 2026</span>
+                        <h2><a href="blog/2026-03-23-pa-supreme-court-skill-games-what-operators-must-know.html">PA Supreme Court vs. the Legislature: Which Decides the Fate of Skill Games First?</a></h2>
+                        <p>The PA Supreme Court heard oral arguments in November 2025 and a ruling is expected in 2026 — possibly before the June 30 budget deadline. Here's what was argued, what the court must decide, and how each outcome reshapes the legislative fight.</p>
+                        <a href="blog/2026-03-23-pa-supreme-court-skill-games-what-operators-must-know.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 22, 2026 -->
+                                <!-- Auto: 2026-03-22 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Pennsylvania Skill Games Bill 2026: Shapiro Administration's Latest Stance &amp; Committee Progress" loading="lazy">
+                        <span class="blog-category">Legislative Update</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-card-meta"><span class="blog-card-category">Legislative Update</span><span class="blog-card-date">March 22, 2026</span></div>
+                        <h2><a href="blog/2026-03-22-pennsylvania-skill-games-bill-2026-shapiro-stance-committee.html">Pennsylvania Skill Games Bill 2026: Shapiro Administration's Latest Stance &amp; Committee Progress</a></h2>
+                        <p>Latest updates on PA skill games legislation 2026. See Shapiro administration position, committee progress, and what's next for skill games legal Pennsylvania.</p>
+                        <a href="blog/2026-03-22-pennsylvania-skill-games-bill-2026-shapiro-stance-committee.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+<article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Missouri's Skill Games Ban Is a Warning for Pennsylvania Operators" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Compliance</span>
+                        <span class="blog-date">March 22, 2026</span>
+                        <h2><a href="blog/2026-03-22-missouri-ruling-warning-pennsylvania-skill-games.html">Missouri's Skill Games Ban Is a Warning for Pennsylvania Operators</a></h2>
+                        <p>A federal judge ruled Torch Electronics machines illegal in Missouri — the same "skill" argument Pennsylvania's attorney general is now making to the state Supreme Court. With 80,000+ machines at stake and a June 30 budget deadline looming, here's what PA operators need to do right now.</p>
+                        <a href="blog/2026-03-22-missouri-ruling-warning-pennsylvania-skill-games.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 21, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Missouri Bans Skill Games — What PA Operators Must Know" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Regulation</span>
+                        <span class="blog-date">March 21, 2026</span>
+                        <h2><a href="blog/2026-03-21-missouri-ruling-pa-supreme-court-skill-games.html">Missouri Just Banned Skill Games. Pennsylvania's Supreme Court Decision Is Still Coming.</a></h2>
+                        <p>A federal judge ruled Missouri skill game terminals illegal — the same "skill" argument Pennsylvania's attorney general is making to the state Supreme Court. With 80,000+ machines in PA and a ruling expected in 2026, here's what operators need to know and do now.</p>
+                        <a href="blog/2026-03-21-missouri-ruling-pa-supreme-court-skill-games.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Featured Post - March 19, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Two Clocks Ticking for PA Skill Game Operators in 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Regulation</span>
+                        <span class="blog-date">March 19, 2026</span>
+                        <h2><a href="blog/2026-03-19-pa-skill-games-two-clocks-ticking-supreme-court-budget.html">Two Clocks Are Ticking for PA Skill Game Operators in 2026</a></h2>
+                        <p>The PA Supreme Court is expected to rule on skill games this year. The budget deadline is June 30. Here's what both tracks mean, how a 52% vs 16% tax changes your operation's math, and what to do now before either clock runs out.</p>
+                        <a href="blog/2026-03-19-pa-skill-games-two-clocks-ticking-supreme-court-budget.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post - March 18, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Pennsylvania Skill Games $500 Flat Fee Bipartisan Momentum 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Tax &amp; Regulation</span>
+                        <span class="blog-date">March 18, 2026</span>
+                        <h2><a href="blog/2026-03-18-pa-skill-games-flat-fee-bipartisan-momentum.html">PA's $500 Flat Fee Gains Bipartisan Traction in Both Chambers — What It Means for Operators</a></h2>
+                        <p>A House cosponsor memo now mirrors Senate SB 1079's $500/month flat fee per machine. With bipartisan support in both chambers and the June 30 budget deadline approaching, here's where the debate stands — and what operators should do before the deal is done.</p>
+                        <a href="blog/2026-03-18-pa-skill-games-flat-fee-bipartisan-momentum.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Former Featured Post - March 17, 2026 -->
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Virginia Skill Games SB 661 Passes Pennsylvania 52 Percent Tax Comparison" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legislative Update</span>
+                        <span class="blog-date">March 17, 2026</span>
+                        <h2><a href="blog/2026-03-17-virginia-skill-games-passes-pa-comparison.html">Virginia Just Legalized Skill Games at 25% Tax — What It Means for Pennsylvania's 52% Proposal</a></h2>
+                        <p>The Virginia General Assembly passed SB 661 on March 15, 2026, creating a regulated skill games market with a 25% tax rate. Pennsylvania is proposing 52%. Here's why the Virginia model matters for PA operators — and why Harrisburg may need to reconsider.</p>
+                        <a href="blog/2026-03-17-virginia-skill-games-passes-pa-comparison.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="What Pennsylvania Can Learn From How Other States Handled Skill Games Regulation" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">State Comparison</span>
+                        <span class="blog-date">March 17, 2026</span>
+                        <h2><a href="blog/2026-03-17-pa-skill-games-what-other-states-learned.html">What Pennsylvania Can Learn From How Other States Handled Skill Games Regulation</a></h2>
+                        <p>Virginia banned skill games and got years of litigation. Illinois licensed them at 29%+ and the market consolidated. Georgia is still in limbo. As PA faces a Supreme Court ruling and a June 30 budget deadline simultaneously, the lessons from other states have never been more relevant.</p>
+                        <a href="blog/2026-03-17-pa-skill-games-what-other-states-learned.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games Regulatory Gap 80000 Machines Legal Risk 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Compliance</span>
+                        <span class="blog-date">March 16, 2026</span>
+                        <h2><a href="blog/2026-03-16-pa-skill-games-regulatory-gap-80000-machines-at-risk.html">PA Skill Games: The Regulatory Gap That Puts 80,000 Machines at Legal Risk Right Now</a></h2>
+                        <p>No regulatory framework. A Supreme Court ruling expected any day. A budget deadline in 106 days. Pennsylvania's 80,000 skill game machines operate in a legal gray zone — and the clock is running out. Here's what operators need to understand before the resolution arrives.</p>
+                        <a href="blog/2026-03-16-pa-skill-games-regulatory-gap-80000-machines-at-risk.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games 16 vs 52 Percent Tax Rate Supreme Court 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Tax &amp; Regulation</span>
+                        <span class="blog-date">March 15, 2026</span>
+                        <h2><a href="blog/2026-03-15-pa-skill-games-16-vs-52-tax-rate-supreme-court.html">16% vs. 52%: The PA Skill Games Tax Battle That Operators Can't Afford to Ignore</a></h2>
+                        <p>Two competing tax rates. A Supreme Court ruling expected any day. A June 30 budget deadline. Here's what every Pennsylvania skill games operator needs to know right now — including what Senate Bill 626 actually requires and how to prepare for either outcome.</p>
+                        <a href="blog/2026-03-15-pa-skill-games-16-vs-52-tax-rate-supreme-court.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games Supreme Court Budget Deadline June 2026 Operators" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Regulation</span>
+                        <span class="blog-date">March 14, 2026</span>
+                        <h2><a href="blog/2026-03-14-pa-skill-games-supreme-court-budget-deadline-operators.html">Two Clocks Are Ticking: PA Skill Games Face Supreme Court Ruling and June 30 Budget Deadline Simultaneously</a></h2>
+                        <p>A PA Supreme Court ruling could drop at any time while Harrisburg races toward the June 30 budget deadline. With a 52% tax on the table and no market study backing it, here's how both tracks interact — and what operators need to do before spring is over.</p>
+                        <a href="blog/2026-03-14-pa-skill-games-supreme-court-budget-deadline-operators.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Supreme Court Skill Games Ruling 2026 Operator Guide" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal</span>
+                        <span class="blog-date">March 13, 2026</span>
+                        <h2><a href="blog/2026-03-13-pa-supreme-court-skill-games-ruling-what-operators-must-know.html">PA Supreme Court Could Rule Any Day on Skill Games — How to Prepare for Both Outcomes</a></h2>
+                        <p>The PA Supreme Court heard oral arguments in November 2025. A ruling could drop before Harrisburg reaches a budget deal — leaving operators exposed with no legislative framework in place. Here's what each outcome means and what to do now.</p>
+                        <a href="blog/2026-03-13-pa-supreme-court-skill-games-ruling-what-operators-must-know.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Supreme Court Skill Games Ruling 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Regulatory</span>
+                        <span class="blog-date">April 17, 2026</span>
+                        <h2><a href="blog/2026-04-17-pa-skill-games-supreme-court-ruling-imminent.html">PA Supreme Court Skill Games Ruling Is Coming — What Operators Need to Know Now</a></h2>
+                        <p>The Pennsylvania Supreme Court is expected to rule on skill game legality in 2026. With 70,000 machines operating and a new consumer protection bill in play, here's what operators need to watch before a decision drops.</p>
+                        <a href="blog/2026-04-17-pa-skill-games-supreme-court-ruling-imminent.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Missouri Federal Skill Games Ban Pennsylvania Impact 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legal &amp; Regulation</span>
+                        <span class="blog-date">March 20, 2026</span>
+                        <h2><a href="blog/2026-03-20-missouri-federal-ban-pa-skill-games-warning.html">Missouri's Federal Skill Games Ban: What It Means for Pennsylvania Operators</a></h2>
+                        <p>A federal judge just ruled Missouri skill games illegal. Pennsylvania has 80,000+ machines, a pending Supreme Court decision, and a budget deadline 110 days out. Here's what PA operators need to understand right now.</p>
+                        <a href="blog/2026-03-20-missouri-federal-ban-pa-skill-games-warning.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games Budget Hearing 52 Percent Tax March 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Tax &amp; Regulation</span>
+                        <span class="blog-date">March 12, 2026</span>
+                        <h2><a href="blog/2026-03-12-pa-skill-games-budget-hearing-52-percent.html">&ldquo;Pigs Get Fat, Hogs Go to Slaughter&rdquo; &mdash; What PA's Budget Hearing Revealed About the 52% Skill Games Tax</a></h2>
+                        <p>At the March 11 budget hearing, Revenue Secretary Pat Browne defended Shapiro's 52% skill games tax — and admitted there's no market impact study backing the $766M projection. Rep. Jamie Barton's response, and what it means before June 30.</p>
+                        <a href="blog/2026-03-12-pa-skill-games-budget-hearing-52-percent.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="PA Skill Games House Bill Legislative Path 2026" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Legislation</span>
+                        <span class="blog-date">March 11, 2026</span>
+                        <h2><a href="blog/2026-03-11-pa-skill-games-house-bill-legislative-path.html">PA Skill Games: The House Joins the Fight — Three Tax Rates, One Outcome</a></h2>
+                        <p>A House companion bill to SB 1079 has entered the arena. With the Governor demanding 52%, a rival Senate bill pushing 33%, and operator-aligned legislators at 16%, Pennsylvania's skill games future is heading toward a decisive vote.</p>
+                        <a href="blog/2026-03-11-pa-skill-games-house-bill-legislative-path.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="The Casino Lobby's Skill Games Argument Is Falling Apart" loading="lazy">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Industry Analysis</span>
+                        <span class="blog-date">March 10, 2026</span>
+                        <h2><a href="blog/2026-03-10-casino-lobby-skill-games-argument.html">The Casino Lobby's Skill Games Argument Is Falling Apart</a></h2>
+                        <p>Casinos blame skill games for their revenue declines — but a Villanova economist and state helpline data tell a different story. Online gambling and COVID are the real culprits. Here's what it means for the 2026 tax fight in Harrisburg.</p>
+                        <a href="blog/2026-03-10-casino-lobby-skill-games-argument.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card featured">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Shapiro skill games budget 2026 IFO 1.1 billion" loading="lazy">
+                        <span class="blog-category">Tax &amp; Regulation</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">March 9, 2026</span>
+                        <h2><a href="blog/2026-03-09-shapiro-skill-games-budget-billion.html">Shapiro's $1.1 Billion Skill Games Plan: What Every PA Operator Needs to Know</a></h2>
+                        <p>The IFO now projects $1.1 billion a year in skill game tax revenue under Shapiro's 52% plan — with operators absorbing $905 million of it. Here's the machine-level math and what to do now.</p>
+                        <a href="blog/2026-03-09-shapiro-skill-games-budget-billion.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post - Tax Showdown -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Pennsylvania skill games tax debate 2026" loading="lazy">
+                        <span class="blog-category">Tax &amp; Regulation</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">March 2026</span>
+                        <h2><a href="blog/2026-03-08-pa-skill-games-tax-showdown.html">PA Skill Games Tax Showdown: 52% vs. Operators — What 2026 Means for Your Bottom Line</a></h2>
+                        <p>Governor Shapiro is again pushing a 52% tax on skill game proceeds. A Senate counter comes in at 16%. Here's what each scenario means for PA operators and how to prepare right now.</p>
+                        <a href="blog/2026-03-08-pa-skill-games-tax-showdown.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post - Legislation 2026 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Pennsylvania skill games legislation 2026" loading="lazy">
+                        <span class="blog-category">Legislation</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">February 2026</span>
+                        <h2><a href="blog/pennsylvania-skill-games-legislation-2026.html">Pennsylvania Skill Games Legislation: What Operators Need to Know in 2026</a></h2>
+                        <p>Three competing proposals are on the table in Harrisburg. SB 1079, Governor Shapiro's budget plan, and a Supreme Court ruling could reshape the industry. Here's what it means for your business.</p>
+                        <a href="blog/pennsylvania-skill-games-legislation-2026.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post - Legal Status -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="Skill games in Pennsylvania restaurant" loading="lazy">
+                        <span class="blog-category">Legal</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">January 2025</span>
+                        <h2><a href="blog/skill-games-legal-pennsylvania-2026.html">Are Skill Games Legal in Pennsylvania? 2026 Update</a></h2>
+                        <p>Everything you need to know about the legal status of skill games in Pennsylvania, including the landmark 2023 Commonwealth Court ruling and ongoing developments.</p>
+                        <a href="blog/skill-games-legal-pennsylvania-2026.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/banilla/banilla-cabinets.jpg" alt="Banilla, JVL, Primero comparison" loading="lazy">
+                        <span class="blog-category">Guide</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">January 2025</span>
+                        <h2><a href="blog/banilla-vs-jvl-vs-primero.html">Banilla vs JVL vs Primero: Which Skill Games Are Right for You?</a></h2>
+                        <p>A detailed comparison of the three leading skill game brands to help you choose the best machines for your location.</p>
+                        <a href="blog/banilla-vs-jvl-vs-primero.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/installation-bar-lounge.jpg" alt="Skill games earning potential" loading="lazy">
+                        <span class="blog-category">Business</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">January 2025</span>
+                        <h2><a href="blog/how-much-can-you-earn-skill-games.html">How Much Can You Earn with Skill Games in Pennsylvania?</a></h2>
+                        <p>Real numbers and factors that affect your revenue potential. Learn what top-performing locations are earning.</p>
+                        <a href="blog/how-much-can-you-earn-skill-games.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 4 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/installation-convenience-store.jpg" alt="Best locations for skill games" loading="lazy">
+                        <span class="blog-category">Tips</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">January 2025</span>
+                        <h2><a href="blog/best-locations-for-skill-games.html">Best Locations for Skill Games in Pennsylvania</a></h2>
+                        <p>Bars, convenience stores, restaurants, or game rooms? Find out which locations perform best and why.</p>
+                        <a href="blog/best-locations-for-skill-games.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 5 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/jvl/jvl-flex-lineup.jpg" alt="Revenue share vs buying skill games" loading="lazy">
+                        <span class="blog-category">Business</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">January 2025</span>
+                        <h2><a href="blog/revenue-share-vs-buying-skill-games.html">Revenue Share vs Buying: Which Model is Right for You?</a></h2>
+                        <p>Should you lease machines on revenue share or buy them outright? We break down the pros and cons of each approach.</p>
+                        <a href="blog/revenue-share-vs-buying-skill-games.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 6 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/installation-bar-lounge.jpg" alt="Pennsylvania skill game regulations" loading="lazy">
+                        <span class="blog-category">Education</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">January 2025</span>
+                        <h2><a href="blog/pennsylvania-skill-game-regulations.html">Pennsylvania Skill Game Regulations: What Operators Need to Know</a></h2>
+                        <p>Understanding the regulatory landscape, tax proposals, and what the future may hold for Pennsylvania skill games.</p>
+                        <a href="blog/pennsylvania-skill-game-regulations.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 7 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/installation-restaurant.jpg" alt="How to start a game room in Pennsylvania" loading="lazy">
+                        <span class="blog-category">Business Guide</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">January 2025</span>
+                        <h2><a href="blog/how-to-start-game-room-pennsylvania.html">How to Start a Game Room in Pennsylvania: Complete 2025 Guide</a></h2>
+                        <p>Everything you need to know about opening a dedicated game room in Pennsylvania, from legal requirements to machine selection.</p>
+                        <a href="blog/how-to-start-game-room-pennsylvania.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 8 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/installation-convenience-store.jpg" alt="Skill games for convenience stores" loading="lazy">
+                        <span class="blog-category">Business Guide</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">January 2025</span>
+                        <h2><a href="blog/skill-games-convenience-stores.html">Skill Games for Convenience Stores in Pennsylvania</a></h2>
+                        <p>How c-stores are earning $1,500-$3,000+ monthly with skill games. Zero upfront cost, quick installation.</p>
+                        <a href="blog/skill-games-convenience-stores.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 9 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="images/banilla/banilla-cabinets.jpg" alt="Skill games for bars" loading="lazy">
+                        <span class="blog-category">Business Guide</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-date">January 2025</span>
+                        <h2><a href="blog/skill-games-for-bars.html">Skill Games for Bars in Pennsylvania: Complete Guide</a></h2>
+                        <p>Bars are the #1 location for skill games. Learn how to maximize revenue with the right machines and placement.</p>
+                        <a href="blog/skill-games-for-bars.html" class="btn btn-subtle">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section cta-simple">
+        <div class="container">
+            <div class="cta-content-inner">
+                <h2>Ready to Get <span class="gradient-text">Started</span>?</h2>
+                <p>Contact us for a free consultation and learn how skill games can boost your revenue.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-white btn-large">Get Your Free Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-text">SKILL GAMES</span>
+                        <span class="logo-state">PENNSYLVANIA</span>
+                    </a>
+                    <p>Pennsylvania's premier provider of skill game solutions. Authorized distributor of Banilla, JVL, and Primero games.</p>
+                    <div class="footer-brands">
+                        <span>Banilla</span>
+                        <span>JVL</span>
+                        <span>Primero</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="games.html">Our Games</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Brands</h4>
+                    <ul>
+                        <li><a href="games.html#banilla">Banilla Games</a></li>
+                        <li><a href="games.html#jvl">JVL Entertainment</a></li>
+                        <li><a href="games.html#primero">Primero Games</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get in Touch</h4>
+                    <p>Serving all of Pennsylvania</p>
+                    <div class="footer-contact-options">
+                        <div class="footer-phone-row">
+                            <a href="tel:+16784443372" class="footer-phone">(678) 444-3372</a>
+                            <span class="footer-divider">&middot;</span>
+                            <a href="sms:+16784443372" class="footer-sms">Text</a>
+                        </div>
+                        <div class="footer-phone-row" style="opacity:0.65;font-size:0.9em;margin-top:4px;">
+                            <a href="tel:+14703042695" class="footer-phone">(470) 304-2695</a>
+                            <span class="footer-divider">&middot;</span>
+                            <a href="sms:+14703042695" class="footer-sms">Text</a>
+                        </div>
+                    </div>
+                    <a href="tel:+16784443372" class="footer-phone">(678) 444-3372</a>
+                    <a href="mailto:info@skillgamesforpa.com" class="footer-email">info@skillgamesforpa.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Skill Games Pennsylvania. All rights reserved. | All games are legal skill-based games compliant with Pennsylvania law.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA -->
+    <div class="sticky-cta">
+        <a href="tel:+16784443372" class="sticky-cta-phone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call Now
+        </a>
+        <a href="contact.html" class="sticky-cta-quote">
+            Get Free Quote
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+
+    <!-- GHL CHAT WIDGET - Paste your GoHighLevel chat widget code here -->
+    <div id="ghl-chat-widget">
+        <!-- PASTE YOUR GHL CHAT WIDGET CODE HERE -->
+    </div>
+    <!-- END GHL CHAT WIDGET -->
+
+<!-- Lead Capture Popup -->
+<div id="lead-popup-overlay">
+    <div id="lead-popup">
+        <button id="lead-popup-close" aria-label="Close">&times;</button>
+        <div class="lead-popup-form-wrapper">
+            <div class="lead-popup-badge">Free Resource</div>
+            <h2>Get the Pennsylvania Skill Games Revenue Calculator</h2>
+            <p>See exactly how much your location could earn monthly. Takes 30 seconds. No obligation.</p>
+            <form class="lead-popup-form" action="https://formspree.io/f/maqqekpa" method="POST" id="lead-capture-form">
+                <input type="hidden" name="_subject" value="New Lead: Skill Games Revenue Calculator Request">
+                <input type="hidden" name="_cc" value="ak@arcanenet.com">
+                <input type="hidden" name="source" value="popup-revenue-calculator">
+                <input type="hidden" name="site" value="Skill Games Pennsylvania">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-row">
+                    <input type="email" name="email" placeholder="Business Email" required>
+                </div>
+                <div class="form-row">
+                    <input type="tel" name="phone" placeholder="Phone Number (optional)">
+                </div>
+                <div class="form-row">
+                    <select name="business_type" required>
+                        <option value="" disabled selected>Business Type</option>
+                        <option value="bar">Bar / Tavern</option>
+                        <option value="convenience">Convenience Store</option>
+                        <option value="restaurant">Restaurant</option>
+                        <option value="carwash">Car Wash</option>
+                        <option value="laundromat">Laundromat</option>
+                        <option value="truckstop">Truck Stop</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="lead-popup-submit">Send Me the Calculator &rarr;</button>
+            </form>
+            <span class="lead-popup-skip" id="popup-skip">No thanks, I don't want more revenue</span>
+        </div>
+        <div class="lead-popup-success">
+            <div class="success-icon">&#x2705;</div>
+            <h3>You're all set!</h3>
+            <p>Check your inbox &mdash; the revenue calculator is on its way. We'll also reach out within 1 business day.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    var POPUP_KEY = 'sgPopupShown';
+    var overlay = document.getElementById('lead-popup-overlay');
+    var closeBtn = document.getElementById('lead-popup-close');
+    var skipBtn = document.getElementById('popup-skip');
+    var form = document.getElementById('lead-capture-form');
+
+    // Don't show if already seen in last 7 days
+    var lastShown = localStorage.getItem(POPUP_KEY);
+    if (lastShown && (Date.now() - parseInt(lastShown)) < 7 * 24 * 60 * 60 * 1000) return;
+
+    function showPopup() {
+        overlay.classList.add('active');
+        localStorage.setItem(POPUP_KEY, Date.now().toString());
+    }
+
+    function hidePopup() {
+        overlay.classList.remove('active');
+    }
+
+    // Exit intent (desktop)
+    var triggered = false;
+    document.addEventListener('mouseleave', function(e) {
+        if (!triggered && e.clientY < 10) {
+            triggered = true;
+            showPopup();
+        }
+    });
+
+    // Time-based fallback (45 seconds)
+    setTimeout(function() {
+        if (!triggered && !overlay.classList.contains('active')) {
+            triggered = true;
+            showPopup();
+        }
+    }, 45000);
+
+    // Scroll trigger (70% of page)
+    window.addEventListener('scroll', function() {
+        if (triggered) return;
+        var scrolled = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+        if (scrolled > 70) {
+            triggered = true;
+            showPopup();
+        }
+    });
+
+    closeBtn.addEventListener('click', hidePopup);
+    skipBtn.addEventListener('click', hidePopup);
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay) hidePopup();
+    });
+
+    // Handle form submission
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var data = new FormData(form);
+            fetch(form.action, {
+                method: 'POST',
+                body: data,
+                headers: { 'Accept': 'application/json' }
+            }).then(function(r) {
+                if (r.ok) {
+                    document.querySelector('.lead-popup-form-wrapper').style.display = 'none';
+                    document.querySelector('.lead-popup-success').style.display = 'block';
+                    setTimeout(hidePopup, 4000);
+                }
+            }).catch(function() {
+                form.submit(); // Fallback to regular submit
+            });
+        });
+    }
+})();
+</script>
+
+</body>
+</html>
